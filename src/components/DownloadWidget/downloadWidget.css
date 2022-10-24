@@ -3,7 +3,7 @@
   min-height: 30vh;
   width: 90%;
   background-color: #ffdd7e;
-  font-family: "Clash Display", sans-serif;
+  padding:2%;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -11,18 +11,26 @@
 }
 
 .downloadWidgetTitle p {
-  margin: 20px;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 0%;
   font-size: 35px;
+  font-family: "Clash Display", sans-serif;
+  font-weight: 500;
 }
 
 .downloadWidgetMessage p {
   margin: 0px 20px 0px 20px;
+  font-family: 'General-Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .downloadWidgetBtn {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  font-family: 'General-Sans', sans-serif;
 }
 
 .downloadWidgetBtn a {

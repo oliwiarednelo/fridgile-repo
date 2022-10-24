@@ -2,15 +2,39 @@
 
 
 #search-input {
-margin-left: 3%;
+
     padding-left: 3% ;
     padding-right: 3%;
-    width: 65% ;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    width: 300px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: 1px solid #DBEDDD;
-    border-radius: 10px;
+    font-family: 'general-sans', sans-serif;
     background-color: #DBEDDD;
     margin-top: 20px;
-    margin-bottom: 20px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.founditem-list {
+    width: 70%;
+color: #E57B07;
+
+    margin-left: 3%;
+font-family: 'general-sans', sans-serif;
+}
+
+.row {
+    padding-top: 5%;
+ 
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.search-btn {
+    color: #E57B07;
+    cursor: pointer;
+background-color: transparent;
+border: none;
+font-size: 16px;
 }

@@ -19,7 +19,7 @@ export const RecipesWidget = () => {
         </div>
       </div>
       <div className="recipesWidgetRight">
-        <img src={recipesGraphic} alt="" className="recipesWidgetIcon" />
+        <img src={recipesGraphic} alt="" />
       </div>
     </div>
   );

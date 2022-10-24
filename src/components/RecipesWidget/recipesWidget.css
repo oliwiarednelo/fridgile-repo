@@ -3,30 +3,39 @@
   min-height: 36vh;
   background-color: #f2e2ff;
   border-radius: 30px;
-  font-family: "Clash Display", sans-serif;
   display: flex;
+  padding:2%;
   justify-content: center;
   align-items: flex-end;
+  overflow: hidden;
 }
 
 .recipesWidgetLeft {
-  width: 60%;
+  width: 70%;
   height: 100%;
 }
 
 .recipesWidgetTitle p {
   margin: 20px;
+  font-family: "Clash Display", sans-serif;
+  font-weight: 500;
   font-size: 35px;
 }
 
-.recipesWidgetMessage {
+.recipesWidgetMessage p{
   margin: 0px 20px 0px 20px;
+  font-family: 'General-Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+
 }
 
 .recipesBtn {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 10px;
+  font-family: 'General-Sans', sans-serif;
 }
 
 .recipesBtn a {
@@ -44,14 +53,20 @@
 }
 
 .recipesWidgetRight {
-  width: 40%;
-  height: 100%;
+
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+align-items: center;
+ 
 }
 
-.recipesWidgetIcon {
-  height: 200px;
-  margin: 0;
+.recipesWidgetRight img{
+width: 200px;
+margin-bottom: -60%;
+
 }
+
+
+
+
+

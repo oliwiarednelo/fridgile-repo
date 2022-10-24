@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/general-sans');
+
 .myFridge {
 
   min-height: 90vh;
@@ -31,9 +33,11 @@
 }
 
 .fridgeSubTitle {
-  font-family: "Clash Display", sans-serif;
-  font-weight: 500;
-  margin: 10px 20px;
+  font-family: 'General-Sans', sans-serif;
+  font-weight: 300;
+margin-left: 3%;
+margin-bottom: 0%;
+margin-top: 5%;
 }
 
 .fridgeCategories {
@@ -42,7 +46,7 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  margin: 10px;
+margin-left: 1%;
 }
 
 .fridgeRightSide {

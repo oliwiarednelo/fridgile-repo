@@ -1,0 +1,19 @@
+.cardContent {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.title {
+    font-family: "Clash Display", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.item-display {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+

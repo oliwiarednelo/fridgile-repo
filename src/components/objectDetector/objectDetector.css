@@ -18,6 +18,8 @@
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 3px;
+  font-family: 'General Sans', sans-serif;
+  font-weight: 500;
 }
 
 .detectorSecondaryMessage {
@@ -25,6 +27,7 @@
   color: grey;
   text-align: center;
   margin: 10px;
+  font-family: 'General Sans', sans-serif;
 }
 
 input[type="file"] {
@@ -57,4 +60,10 @@ input[type="file"] {
 
 .imageLabel {
   width: 200px;
+}
+
+h2 {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 500;
+
 }

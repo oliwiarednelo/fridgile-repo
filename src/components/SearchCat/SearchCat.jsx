@@ -6,6 +6,7 @@ export const SearchCat = () => {
     const { detectedItem } = useSaveings();
     const [searchedItem, setSearchedItem] = useState("");
     const [foundItem, setFoundItem] = useState("");
+    const [itemList, setItemList] = useState(false);
 
     const onHandle = () => {
       detectedItem.map((item) => {
@@ -19,15 +20,16 @@ export const SearchCat = () => {
     }
     return (
 <div>
+   
     <input type="text" name="" id="search-input" placeholder="Search an item..." onChange={(e) => {setSearchedItem(e.target.value);}}/>
-<button type="submit" onClick={onHandle}>Search</button>
+<button type="submit" onClick={onHandle} className="search-btn">Search</button>
 {foundItem.length > 0 && <div className="founditem-list">
-{foundItem}
+ <div className="row">{foundItem} </div>
+
+
 </div>}
 
-   {/*  {detectedItem.map((item) => {
-console.log(item.item);
-    })} */}
+ 
 </div>
     )
 }
